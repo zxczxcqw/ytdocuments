@@ -25,3 +25,10 @@ class Test extends ActiveRecord
 }
 
 ```
+```js
+const name = "zhangsan"
+const arr = new Array()
+arr.map((k, v)=>{
+     console.log(k)
+})
+```
