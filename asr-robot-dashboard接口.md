@@ -135,7 +135,7 @@ asr-robot-dashboard接口文档
     "StartTime": "08:00:00", //群呼开始时间
     "EndTime": "21:00:00",      //群呼结束时间
     "aicount": "4", //机器人数量
-    "agentorqueue": 1 //交互方式 1转手机，2转分机，3队列
+    "agentorqueue": "1"//交互方式 1转手机，2转分机，3队列
     "ExtenNum":  //分机号（转分机） 
     "asrtomobile": //手机号（转手机）
     "asrqueue": //队列（队列）
