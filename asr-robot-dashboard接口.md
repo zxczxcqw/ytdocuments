@@ -27,7 +27,9 @@ asr-robot-dashboard接口文档
             {"Num": "88851554227"},
             {"Num": "32432423"}
         ],
-        "alias":"32432423", //语音线路
+        "AliasList":[ //语音线路列表
+             {"alias":"66660011"}
+        ], 
         "ExtList":[   //分机号列表
             {"id": "3", "type": "friend", "name": "1003"},
             {"id": "4", "type": "friend", "name": "1004"},
