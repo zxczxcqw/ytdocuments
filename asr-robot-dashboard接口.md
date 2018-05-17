@@ -26,9 +26,9 @@ asr-robot-dashboard接口文档
             {"Num": "66660001"},
             {"Num": "88851554227"},
             {"Num": "32432423"}
-        ],
-        "AliasList":[ //语音线路列表
-             {"alias":"66660011"}
+        ]
+        "AliasList":[ //语音线路列表
+            {"alias":"66660011"}
         ], 
         "ExtList":[   //分机号列表
             {"id": "3", "type": "friend", "name": "1003"},
@@ -76,6 +76,8 @@ asr-robot-dashboard接口文档
         } //添加时为空(修改时传参数 AsrId 获取)
     }
 }
+
+
 //获取所有机器人信息，或获取单个机器人信息
 //接口地址 /api_backend.php?r=asroperate/asrinfo，可传参数AsrId 获取单个机器人信息
 {
@@ -107,6 +109,7 @@ asr-robot-dashboard接口文档
     ]
 }
 
+
 //接口获取批次id
 //接口地址/api_backend.php?r=asroperate/batchlist，无需参数
 {
@@ -117,6 +120,7 @@ asr-robot-dashboard接口文档
          },
     ]
 }
+
 
 //接口功能添加修改机器人
 //接口地址/api_backend.php?r=asroperate/addasr
