@@ -20,7 +20,7 @@ asr-robot-dashboard接口文档
             {"id": "10", "type": "friend", "name": "1010"}
         ],
         "staff_id":[ //分机号列表
-            {"staff_id": "1002"},
+            {"staff_id": "1002","staff_name": "1010"},
         ],
         "asr_info":
           {   "id":"7",  //机器人id
