@@ -126,20 +126,20 @@ asr-robot-dashboard接口文档
 //接口地址/api_backend.php?r=asroperate/addasr
 //参数说明
 {
-    "CallerID": "610099255",    //外呼显示号码
-    "ConcurrentLine": "1",      //并发线
-    "asrnumber": "7900002",     //语音识别线路
-    "BatchIdStr": "15,20,30",   //逗号分割的批次ID字符串
-    "Name": "四川话测试",    //群呼名称
+    "caller_iD": "610099255",    //外呼显示号码
+    "concurrent_line": "1",      //并发线
+    "asr_number": "7900002",     //语音识别线路
+    "batchid_str": "15,20,30",   //逗号分割的批次ID字符串
+    "name": "四川话测试",    //群呼名称
     "sms_switch": "0",  //短信开关：0 关 1 开
-    "StartTime": "08:00:00", //群呼开始时间
-    "EndTime": "21:00:00",      //群呼结束时间
-    "aicount": "4", //机器人数量
-    "agentorqueue": "1"//交互方式 1转手机，2转分机，3队列
-    "ExtenNum":  //分机号（转分机） 
-    "asrtomobile": //手机号（转手机）
-    "asrqueue": //队列（队列）
-    "EnableDaemonCall": "0", //启用后台呼叫标志，1启用，0关闭
+    "start_time": "08:00:00", //群呼开始时间
+    "end_time": "21:00:00",      //群呼结束时间
+    "ai_count": "4", //机器人数量
+    "agent_or_queue": "1"//交互方式 1转手机，2转分机，3队列
+    "exten_num":  //分机号（转分机） 
+    "asr_to_mobile": //手机号（转手机）
+    "asr_queue": //队列（队列）
+    "enable_daemon_call": "0", //启用后台呼叫标志，1启用，0关闭
 }
 
 ```
