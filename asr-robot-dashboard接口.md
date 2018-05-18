@@ -12,12 +12,9 @@ asr-robot-dashboard接口文档
         "availue_ai_count":3, //可用机器人数量
         "aicall_max_rate":"1", //备用标识（数据库是这么备注的）
         "asrcall_max_line":3, //外呼并发数最大值
-        "callid_list":[ //外线号码
-             {"num": "88851554227"}
+        "callid_list":[ //外线号码 和 语音线路
+             {"num": "66660011","alias": "上海言通"}
          ],
-        "alias_list":[ //语音线路列表
-            {"alias": "66660004"},
-        ],
         "ext_list":[ //分机号列表
             {"id": "1","type": "friend", "name": "1001"},
             {"id": "10", "type": "friend", "name": "1010"}
