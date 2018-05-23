@@ -94,7 +94,7 @@ asr-robot-dashboard接口文档
 //接口地址/api_backend.php?r=asroperate/addasr
 //参数说明
 {
-    "caller_iD": "610099255",    //外呼显示号码
+    "caller_id": "610099255",    //外呼显示号码
     "concurrent_line": "1",      //并发线
     "asr_number": "7900002",     //语音识别线路
     "batchid_str": "15,20,30",   //逗号分割的批次ID字符串
